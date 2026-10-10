@@ -1,0 +1,15 @@
+name = "mellow-pet-loft"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-10-01"
+
+# D1 stores shop configuration, accounts, sessions and coordination metadata.
+[[d1_databases]]
+binding = "DB"
+database_name = "mellow_pet_loft_db"
+database_id = "your-d1-database-id-here"
+migrations_dir = "migrations"
+
+# Private R2 bucket for receipt attachments (maximum 1 MB each).
+[[r2_buckets]]
+binding = "RECEIPTS_BUCKET"
+bucket_name = "mellow-pet-loft-receipts"

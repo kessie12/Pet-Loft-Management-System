@@ -1,0 +1,3 @@
+-- Use migrations/0001_hybrid_storage.sql with Wrangler D1 migrations.
+-- This schema is intentionally non-destructive. Customer, pet, booking, payment
+-- and credit records belong to the linked Google Sheet, not SQL tables.
